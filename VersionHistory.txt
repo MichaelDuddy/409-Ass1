@@ -1,0 +1,21 @@
+cs409 - Software Architecture and Design Assignment 1
+######################################################################
+
+The aim of this assignment is to give you some experience of building a program analysis tool. Your task is to build either a static or dynamic (or a combination of both) analyser that works on Java systems and performs some analysis task such as reverse engineering, metrics calculation, bed smells detection etc. etc. - almost anything that takes a software system as input and then uses static/dynamic analysis to extract useful information or represent it in a more abstract and understandable form.
+
+#######################################################################
+V0.0 - 20/10/2016
+
+ - Initialized git Repo for project. 
+ - Created this Vhist file.
+ - Created Overview for goals
+    - Read in Java Classes for analysis.
+    - Detection of Bad smells.
+    - Basic Rating system based off of Arbitrary parameters as decided by me.
+    - Aim to keep all data flow for analysis and computation away from user, 
+      only allowing data to be passed to user through the classes in view
+
+  - Created a simple Driver Main method
+  - Setup my MVC for the project.
+
+===================================================================================
