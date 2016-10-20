@@ -1,2 +1,12 @@
 # 409-Ass1
-Creating Analyzers using java parser
+
+
+
+Author: Michael Duddy 
+
+version 0.0
+
+since 20/10/2016
+
+
+
