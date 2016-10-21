@@ -15,7 +15,9 @@ V0.0 - 20/10/2016
     - Aim to keep all data flow for analysis and computation away from user, 
       only allowing data to be passed to user through the classes in view
 
-  - Created a simple Driver Main method
-  - Setup my MVC for the project.
-
 ===================================================================================
+
+v0.1 - 20/10/2016
+
+ - Created generic parser for java files. This only reads in a hard coded file at the moment. This may change.
+ - attempted to create basic Class diagrams using java parser for learning purposes. May not be include din final product.
