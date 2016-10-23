@@ -11,9 +11,8 @@ V0.0 - 20/10/2016
  - Created Overview for goals
     - Read in Java Classes for analysis.
     - Detection of Bad smells.
-    - Basic Rating system based off of Arbitrary parameters as decided by me.
-    - Aim to keep all data flow for analysis and computation away from user, 
-      only allowing data to be passed to user through the classes in view
+    - Some analysis for metrics usage
+    - Ratings based of Arbritrary parameters. I will set these based of research.
 
 ===================================================================================
 
@@ -23,3 +22,69 @@ v0.1 - 20/10/2016
  - Methods are printed out at this point to confirm parser functioning.
  
  ====================================================================================
+ 
+ v1.0 22/10/2016
+ 
+ - Created Metrics Package and developed Depth of Inheritance and Weighted Method Count for this pack. Also use a
+   class in this to control flow of data.
+ - As above but for some smells.
+ 
+ ====================================================================================
+ v1.1 22/10/2016
+ 
+ - Added a sniffer for LongParameters and Long Methods - Working on Classes.
+ -Thinking about using a file picker or iterating through various classes in a directory.
+ 
+ =====================================================================================
+ 
+ v1.2 22/10/2016
+ 
+ - Decided just to iterate through files ina  directory. This is hardcoded at present so not very sophisticated.
+ - Now have a Large class sniffer
+ 
+ ======================================================================================
+ 
+ v2.0 22/10/2016
+ 
+ - Abandoned MVC just going with Package for Smells and Pack for metrics. Pack for file reading and a Main.
+ - Tidied up implementation of some code.
+ 
+ ======================================================================================
+ 
+ v2.1 23/10/2016
+ 
+ - Have changed to arraylists to hold move of my Declaration information. 
+ - Improved output slightly so its more readable. Not going to spend a huge amount of time on this
+ 
+ ======================================================================================
+ 
+ v2.2 23/10/2016
+ 
+ - More general cleaning and attempting to correct some of my names to more appropriate.
+ - Begun to add some documentation and comments to the code for readability purposes.
+ - Now allow user to input integers to choose which results they are shown rather than spewing results at them.
+ - Added Suppress warnings to most of the code and dealt with as many warnings as possible.
+ 
+ ======================================================================================
+ 
+ v2.3 23/10/2016
+ 
+ - Playing around with using cases rather than If elseif statements. 
+ - Testing code with various classes. Used on classes from previous projects.
+ - Also deleting Git repo as do not want enterprising individuals to find my code at 5 to midnight and steal it.
+ 
+ =======================================================================================
+ 
+ v2.4 23/10/2016
+ 
+ - Further convention changes. TRying to make my code look like less of a dogs dinner.
+ - Going to ignore methods with no parameters in my Parameter Sniffer
+ 
+ =======================================================================================
+ v2.5 23/10/2016
+ 
+ - Code Complete.
+ - Comments and documentation for most every class
+ - Noticed some inefficient implementation but can comment on in the report.
+ 
+ =======================================================================================
